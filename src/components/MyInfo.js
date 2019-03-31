@@ -3,7 +3,7 @@ import React from "react";
 function MyInfo() {
   return (
     <div>
-      <h2>This will be a ToDo list</h2>
+      <h2>(placeholder)</h2>
     </div>
   );
 }

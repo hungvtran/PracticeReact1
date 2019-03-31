@@ -7,7 +7,6 @@ class MyApp extends React.Component {
     return (
       <div>
         <List />
-        <Footer />
       </div>
     );
   }
