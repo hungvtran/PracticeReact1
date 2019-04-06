@@ -1,6 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./styles.css";
+import Header from "./components/Header.js";
+import MyInfo from "./components/MyInfo.js";
+import MyApp from "./components/MyApp.js";
+import Footer from "./components/Footer.js";
 
 ReactDOM.render(<MyApp />, document.getElementById("test1"));
 ReactDOM.render(<MyInfo />, document.getElementById("root"));
@@ -22,7 +26,4 @@ function VariableTest1() {
 }
 
 ReactDOM.render(<VariableTest1 />, document.getElementById("root"));
-import Header from "./components/Header.js";
-import MyInfo from "./components/MyInfo.js";
-import MyApp from "./components/MyApp.js";
-import Footer from "./components/Footer.js";
+
